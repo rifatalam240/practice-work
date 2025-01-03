@@ -1,0 +1,53 @@
+* {
+  text-decoration: underline;
+}
+body {
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+}
+.ok {
+  text-align: center;
+  color: blue;
+}
+#css {
+  color: rgb(174, 163, 174);
+  text-align: center;
+  width: 50;
+  font-size: large;
+}
+p {
+  color: rgb(104, 104, 180);
+}
+p {
+  background-color: rgb(187, 158, 158);
+}
+h1 {
+  color: rgb(1, 66, 122);
+}
+li {
+  color: rgb(171, 38, 38);
+  color: rgb(72, 72, 76);
+}
+.box { background-image: url('../winter.jpg');background repeat:no-repeat;
+  /* background-image: url("https://cdn02.plentymarkets.com/n79ih84csvpx/item/images/1510230061/full/Mango-2.jpg");*/
+ /* background-repeat: none;
+  background-image: url("../assets/Mango-2.jpg");
+  background-repeat: none;
+  background-size: 500px;
+  backg
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;*/
+}
+.box:hover {
+  background-color: aqua;
+  transition: all 3s;
+}
+.box{
+  background-image: url(../assets/Mango-2.jpg);
+  width: 600px;
+  height: 600px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-image: url("../assets/best-hikes-in-new-zealand.jpg");
+}
