@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope {
+        font-family: "Manrope", serif;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/bbfc4be646.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="px-24 lg:px-32 mt-7">
+    <main>
+      <header class="flex gap-10 justify-center">
+        <div>
+          <h1 class="font-extrabold text-7xl text-black">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <br />
+          <p class="font-medium text-2xl text-gray-400">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <br />
+          <button
+            class="flex bg-gradient-to-r from-orange-500 via-red-800 rounded-lg px-10 py-5"
+          >
+            Explor More
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                class="rotate-45 text-sm"
+                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="relative">
+          <div>
+            <img src="./images/banner.png" alt="" />
+          </div>
+          <div
+            class="absolute shadow-lg px-12 py-7 rounded-lg bottom-8 bg-white left-12"
+          >
+            <i class="fa-solid fa-star text-orange-400"></i>
+            <p>
+              <span class="font-extrabold text-3xl text-black">5.00</span>
+              <br /><span class="text-gray-400 text-2xl"
+                >Trust Pilot Ratings</span
+              >
+            </p>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="mt-14 space-y-3">
+          <h1 class="text-center font-extrabold text-5xl text-black">
+            Our Featured Products
+          </h1>
+          <p class="text-center font-medium text-xl text-gray-400">
+            There are many variations of passages of Lorem Ipsum available, but
+            <br />
+            the majority have suffered alteration in some form, by injected
+            <br />
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto space-x-5 max-w-[1400px] w-auto justify-center"
+        >
+          <div
+            class="space-y-3 rounded-lg shadow-md bg-gray-50 overflow-hidden mx-auto mt-10 w-64 h-96"
+          >
+            <img class="rounded-lg mx-auto" src="./images/tea-1.png" alt="" />
+            <h1 class="font-extrabold text-2xl text-black text-center">
+              Green Tea
+            </h1>
+            <p class="font-semibold text-xl text-gray-400 text-center">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="space-y-3 rounded-lg shadow-md bg-gray-50 overflow-hidden mx-auto max-w-screen-sm mt-10 w-64 h-96"
+          >
+            <img class="rounded-lg mx-auto" src="./images/tea-2.png" alt="" />
+            <h1 class="font-extrabold text-2xl text-black text-center">
+              Milk Tea
+            </h1>
+            <p class="font-semibold text-xl text-gray-400 text-center">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="space-y-3 rounded-lg shadow-md bg-gray-50 overflow-hidden mx-auto max-w-screen-sm mt-10 w-64 h-96"
+          >
+            <img class="rounded-lg mx-auto" src="./images/tea-3.png" alt="" />
+            <h1 class="font-extrabold text-2xl text-black text-center">
+              Black Tea
+            </h1>
+            <p class="font-semibold text-xl text-gray-400 text-center">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+          <div
+            class="space-y-3 rounded-lg shadow-md bg-gray-50 overflow-hidden mx-auto max-w-screen-sm mt-10 w-64 h-96"
+          >
+            <img class="rounded-lg mx-auto" src="./images/tea-4.png" alt="" />
+            <h1 class="font-extrabold text-2xl text-black text-center">
+              Orange Tea
+            </h1>
+            <p class="font-semibold text-xl text-gray-400 text-center">
+              Creamer could be replaced <br />
+              by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex justify-center gap-32 mt-10">
+          <div class="grid grid-cols-2 grid-rows-3 gap-8 mt-5">
+            <div
+              class="bg-gradient-to-r from-red-200 to-red-100 h-36 rounded-xl"
+            ></div>
+            <div class="bg-orange-100 rounded-xl row-span-2">
+              <img class="m-auto mx-auto" src="./images/fresh-1.png" alt="" />
+            </div>
+            <div class="bg-green-100 rounded-xl row-span-2">
+              <img class="m-auto" src="./images/fresh-2.png" alt="" />
+            </div>
+            <div
+              class="bg-gradient-to-r from-red-200 to-red-100 h-36 rounded-xl"
+            ></div>
+          </div>
+          <div class="w-1/2">
+            <h1 class="font-extrabold text-5xl text-black">
+              Great Tea, Freshly <br />
+              Presented
+            </h1>
+            <br />
+            <p class="text-gray-500 font-medium text-xl">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor <br />
+              from all possessions . It represents the highest quality and self
+              expectation. <br />
+              Establishing in 2006, Gong cha had been deeply appreciated by its
+              custoers <br />
+              because of good words of mouth and unique customized service
+              orginated <br />
+              from Taiwan.
+            </p>
+            <br />
+            <h1 class="font-extrabold text-xl text-black">Unique Taste</h1>
+            <br />
+            <p class="text-gray-500 font-medium text-xl">
+              A Unique and different style from other teapots gives <br />
+              a luxurious and minimalist impression
+            </p>
+            <br />
+            <h1 class="font-extrabold text-xl text-black">Premium Quality</h1>
+            <br />
+            <p class="text-gray-500 font-medium text-xl">
+              Premium Quality that makes tea more elegant and more durable
+              <br />
+              when you use it.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
